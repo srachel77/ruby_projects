@@ -9,6 +9,15 @@ optional_course = {FO_programming: 15, FO_db: 15, FO_administration: 15, FO_netw
 ravi = Students.new("Ravi", 1)
 jessi = Students.new("Jessi", 2)
 
+puts "what is ravi's age?"
+age = gets.chomp
+ravi.age = age 
+
+puts "what is Jessi's age?"
+age = gets.chomp
+jessi.age = age 
+
+
 ravi.calculate_score(main_course)
 jessi.calculate_score(optional_course)
 

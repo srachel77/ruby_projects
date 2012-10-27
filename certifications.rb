@@ -11,9 +11,9 @@ class Certifications
   
   def display()
     if (@score > 99) 
-      puts "#{name} with #{id} Qualified for Level 2 Certification"
+      puts "#{name} with #{id} and Age #{age} Qualified for Level 2 Certification"
     elsif (@score > 49) 
-      puts "#{name} with #{id} Qualified for Level 1 Certification"
+      puts "#{name} with #{id} and #{age} Qualified for Level 1 Certification"
     end
   end
   
